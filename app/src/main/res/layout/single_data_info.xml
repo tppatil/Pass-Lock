@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.example.trupti.pass_lock.SingleDataInfo">
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:layout_marginTop="29dp"
+        android:text="Account"
+        android:typeface="serif"
+        android:fontFamily="serif"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="12dp"
+        android:text="Detail"
+        android:typeface="serif"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="serif"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="12dp"
+        android:typeface="serif"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/accountdetail"
+        android:contentDescription="" />
+
+    <TextView
+        android:id="@+id/tvusername"
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username or Email ID"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:typeface="serif"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Not set"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        android:paddingLeft="10dp"
+        android:fontFamily="serif"
+        android:layout_below="@+id/tvusername"
+        android:layout_alignLeft="@+id/tvusername"
+        android:layout_alignStart="@+id/tvusername" />
+
+    <TextView
+        android:id="@+id/tvpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignStart="@+id/username"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="31dp"
+        android:text="Password"
+        android:fontFamily="serif"
+        android:typeface="serif"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="Not set"
+        android:typeface="serif"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        android:paddingLeft="10dp"
+        android:fontFamily="serif"
+        android:layout_below="@+id/tvpassword"
+        android:layout_alignLeft="@+id/tvpassword"
+        android:layout_alignStart="@+id/tvpassword" />
+
+    <TextView
+        android:id="@+id/tvweb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="Website"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/pass"
+        android:layout_alignLeft="@+id/pass"
+        android:layout_alignStart="@+id/pass"
+        android:fontFamily="serif"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvweb"
+        android:layout_alignStart="@+id/tvweb"
+        android:layout_below="@+id/tvweb"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:paddingLeft="10dp"
+        android:text="Not set"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/username"
+        android:layout_alignLeft="@+id/tvusername"
+        android:layout_alignStart="@+id/tvusername"
+        android:layout_marginBottom="45dp"
+        android:fontFamily="serif"
+        android:paddingLeft="10dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        android:typeface="serif"
+        tools:text="Not set"
+        />
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/name"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignStart="@+id/name"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="serif"
+        android:paddingLeft="10dp"
+        android:text="Name"
+        android:textSize="18sp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/colorAccent"
+        android:typeface="serif"
+
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:background="@drawable/threedbutton"
+        android:text="Use App"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif"
+        android:typeface="serif"
+        android:layout_below="@+id/web"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="30dp"
+        android:layout_height="18dp"
+        android:layout_above="@+id/tvweb"
+        android:layout_alignEnd="@+id/textView12"
+        android:layout_alignRight="@+id/textView12"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:background="@drawable/invisiblepass" />
+
+
+</RelativeLayout>

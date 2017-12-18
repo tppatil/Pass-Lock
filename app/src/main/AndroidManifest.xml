@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trupti.pass_lock">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applock"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/applock"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SignUp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".SingleDataInfo" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".UpdateEntry" />
+        <activity android:name=".CategoriesActivity" />
+        <activity android:name=".NewEntry" />
+    </application>
+
+</manifest>

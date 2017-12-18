@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Pass-Lock</string>
+    <string name="selectquestion">Select Secrete Question</string>
+
+
+    <string-array name="secrete_question">
+        <item>Select Security Question</item>
+        <item>What was your childhood nickname?</item>
+        <item>What is the name of your first school?</item>
+        <item>What is your favorite color?</item>
+        <item>What is your favorite movie?</item>
+        <item>Who is your favorite actor, musician, or artist?</item>
+        <item>what is your favorite social media website</item>
+    </string-array>
+
+
+</resources>
